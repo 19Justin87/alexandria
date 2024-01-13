@@ -1,3 +1,4 @@
+Begin
 mod aliquot_sum;
 mod armstrong_number;
 mod collatz_sequence;
@@ -233,3 +234,4 @@ impl U256BitRotate of BitRotate<u256> {
         remainder * pow(2, 256 - n) + quotient
     }
 }
+End
